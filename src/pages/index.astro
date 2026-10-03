@@ -2,14 +2,14 @@
 import Layout from "../layouts/Layout.astro";
 import VoiceStateProvider from "../components/VoiceStateProvider.tsx";
 import {DESIGNER_MODE} from "astro:env/server";
-import ErrorPage from "../components/base/ErrorPage.astro";
+import Homepage from "../components/Homepage.astro";
 
 export const prerender = false;
 ---
 
 <Layout>
     {!DESIGNER_MODE ?
-        <ErrorPage error={404}/> :
+        <Homepage /> :
         <VoiceStateProvider client:only="preact" socketUrl={new URL(`wss:///example`)} token={"example"}/>
     }
 </Layout>

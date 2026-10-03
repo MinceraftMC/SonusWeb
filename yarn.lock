@@ -1256,12 +1256,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iconify-json/akar-icons@npm:^1.2.7":
+  version: 1.2.7
+  resolution: "@iconify-json/akar-icons@npm:1.2.7"
+  dependencies:
+    "@iconify/types": "npm:*"
+  checksum: 10c0/73a55d3e43c2c1f4f54d8f033a0b83d1f258ffe326dd12981864ad6f86c838ef87a02d8dcdfe8551fc22eb1eddee9a51ce06f4661de6a4cd7e505850b58431ea
+  languageName: node
+  linkType: hard
+
 "@iconify-json/ph@npm:^1.2.2":
   version: 1.2.2
   resolution: "@iconify-json/ph@npm:1.2.2"
   dependencies:
     "@iconify/types": "npm:*"
   checksum: 10c0/a8e3a276364a125bdaefab07ae78425113baa34c11b22b4c33ab8ac01fd13c5ee8afccbb26f1a1aaaabd1681ed68dc6eb791df2d41d18724cab1362c61d3cd37
+  languageName: node
+  linkType: hard
+
+"@iconify-json/simple-icons@npm:^1.2.98":
+  version: 1.2.98
+  resolution: "@iconify-json/simple-icons@npm:1.2.98"
+  dependencies:
+    "@iconify/types": "npm:*"
+  checksum: 10c0/c12b165c23ec994edb7556b9b498663b4f26d2d1d8ac9a0b28ee877cff95e25c919745cb57f55668269393b0b97c17d4763aeab394b8cca62988e84debae3dfd
   languageName: node
   linkType: hard
 
@@ -6314,7 +6332,9 @@ __metadata:
     "@astrojs/node": "npm:^10.0.3"
     "@astrojs/preact": "npm:5.0.2"
     "@fontsource/poppins": "npm:^5.2.7"
+    "@iconify-json/akar-icons": "npm:^1.2.7"
     "@iconify-json/ph": "npm:^1.2.2"
+    "@iconify-json/simple-icons": "npm:^1.2.98"
     "@iconify-json/tabler": "npm:^1.2.23"
     "@sapphi-red/web-noise-suppressor": "npm:^0.3.5"
     "@svgr/core": "npm:^8.1.0"

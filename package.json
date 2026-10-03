@@ -41,6 +41,8 @@
   },
   "packageManager": "yarn@4.13.0",
   "devDependencies": {
+    "@iconify-json/akar-icons": "^1.2.7",
+    "@iconify-json/simple-icons": "^1.2.98",
     "@types/audioworklet": "^0.0.65",
     "@types/bytebuffer": "^5.0.49",
     "@types/node": "^22.9.1",

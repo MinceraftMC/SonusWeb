@@ -1,0 +1,19 @@
+---
+import Link from "./common/Link";
+import GitHubIcon from "~icons/akar-icons/github-fill";
+import ModrinthIcon from "~icons/simple-icons/modrinth";
+import DiscordIcon from "~icons/akar-icons/discord-fill";
+---
+
+<main class="h-full flex items-center justify-center gap-6">
+    <div class="flex flex-col px-8 md:px-42 lg:p-0 lg:w-1/2 xl:w-1/3">
+        <a href="https://minceraft.dev/" class="uppercase text-sm font-medium text-neutral-300 z-10 hover:pl-1.5 hover:text-neutral-100 duration-200" >Minceraft</a>
+        <span class="font-bold text-8xl sm:text-9xl pb-8 -indent-1.5">Sonus</span>
+        <span class="text-lg text-[#798AFF]">Multi-server cross-compatible voicechat supporting PlasmoVoice, SimpleVoiceChat and the web</span>
+        <div class="flex flex-col gap-4 mt-8">
+            <Link text="Github" link="https://github.com/MinceraftMC/Sonus" icon={GitHubIcon} />
+            <Link text="Modrinth" link="https://modrinth.com/organization/minceraft" icon={ModrinthIcon} />
+            <Link text="Discord" link="https://discord.com/invite/zC8xjtSPKC" icon={DiscordIcon} />
+        </div>
+    </div>
+</main>
